@@ -1,0 +1,62 @@
+.main {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.ava {
+    align-self: flex-end;
+    padding-left: 10px;
+}
+
+.ava img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.field {
+    align-self: flex-end;
+    margin-bottom: 4px;
+}
+
+.beak {
+    background: darkslategrey;
+    width: 10px;
+    height: 10px;
+}
+
+.beak:after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-bottom-right-radius: 10px;
+}
+
+.name {
+    color: orchid;
+    padding-bottom: 5px;
+}
+
+.item {
+    color: khaki;
+    position: relative;
+    max-width: 300px;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    padding: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+}
+
+.time {
+    color: mediumspringgreen;
+    float: right;
+    padding: 5px;
+    padding-left: 10px;
+}
+

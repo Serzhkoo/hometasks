@@ -1,0 +1,18 @@
+.notError {
+    border: 3px solid green;
+    outline: none;
+}
+
+.error {
+    border: 3px solid red;
+    outline: none;
+}
+
+.errorField {
+    height: 22px;
+}
+
+.input {
+    display: flex;
+    height: 44px;
+}
